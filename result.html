@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Diagnosis Result</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h2>Diagnosis Result</h2>
+    <p>{{ diagnosis }}</p>
+    <a href="{{ url_for('diagnosis') }}">Back to Diagnosis</a>
+</body>
+</html>
